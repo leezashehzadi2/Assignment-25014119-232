@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{
+    float num = 15.58971;
+    int integerPart = (int)num;
+    float fractionalPart = num - integerPart;
+    cout << "Integer part = " << integerPart << endl;
+    cout << "Fractional part = " << fractionalPart;
+    return 0;
+}
